@@ -40,10 +40,10 @@ export default function DreamJob() {
               10K+ got Job
             </div>
             <Avatar.Group spacing="sm">
-              <Avatar src="avatars/avatar-1.png" radius="xl" />
-              <Avatar src="avatars/avatar-2.png" radius="xl" />
-              <Avatar src="avatars/avatar-3.png" radius="xl" />
-              <Avatar src="avatars/avatar-4.png" radius="xl" />
+              <Avatar src="AvatarImages/avatar-1.png" radius="xl" />
+              <Avatar src="AvatarImages/avatar-2.png" radius="xl" />
+              <Avatar src="AvatarImages/avatar-3.png" radius="xl" />
+              <Avatar src="AvatarImages/avatar-4.png" radius="xl" />
               <Avatar radius="xl">+5</Avatar>
             </Avatar.Group>
           </div>

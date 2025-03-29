@@ -4,6 +4,25 @@ import { jobCategory } from "../Data/Data";
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 
 export default function JobCategory() {
+  
+  const removeSpaces = (text: string): string => {
+    return text.replace(/\s+/g, "");
+  };
+
+  const formatNumber = (num: number): string => {
+    if (num >= 10000000) {
+      return (num / 10000000).toFixed(1) + "Cr+";
+    } else if (num >= 1000000) {
+      return (num / 100000).toFixed(1) + "M+";
+    } else if (num >= 100000) {
+      return (num / 100000).toFixed(1) + "Lakh+";
+    } else if (num >= 1000) {
+      return (num / 1000).toFixed(1) + "K+";
+    } else {
+      return Math.floor(num / 50) * 50 + "+"; // Round down to nearest 50
+    }
+  };
+
   return (
     <div className="mt-20 pb-5">
       <div className="text-4xl text-center font-semibold mb-3 text-mine-shaft-100 [&>span]:text-bright-sun-400">
@@ -31,7 +50,7 @@ export default function JobCategory() {
               <div className="p-2 bg-bright-sun-300 rounded-full">
                 <img
                   className="h-8 w-8"
-                  src={`Google.png`}
+                  src={`/CategorySectionImages/${removeSpaces(category.name)}.png`}
                   alt={category.name}
                 />
               </div>
@@ -43,7 +62,7 @@ export default function JobCategory() {
                 {category.desc}
               </div>
               <div className="text-bright-sun-300 text-lg">
-                {category.jobs}+ Jobs posted
+                {formatNumber(category.jobs)} Jobs posted
               </div>
             </div>
           </Carousel.Slide>
