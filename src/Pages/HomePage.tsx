@@ -4,6 +4,9 @@ import DreamJob from '../LandingPage/DreamJob'
 import Companies from '../LandingPage/Companies'
 import JobCategory from '../LandingPage/JobCategory'
 import Working from '../LandingPage/Working'
+import Testinomials from '../LandingPage/Testinomials'
+import Subscribe from '../LandingPage/Subscribe'
+import Footer from '../Footer/Footer'
 
 export default function HomePage() {
   return (
@@ -13,6 +16,9 @@ export default function HomePage() {
       <Companies></Companies>
       <JobCategory></JobCategory>
       <Working></Working>
+      <Testinomials></Testinomials>
+      <Subscribe></Subscribe>
+      <Footer></Footer>
     </div>
   )
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import {
   IconDeviceMobileSearch,
   IconBell,
@@ -27,7 +26,7 @@ export default function Header() {
             component="a"
             href=""
             target="_blank"
-            src="avatar.png"
+            src="/AvatarImages/avatar-3.png"
             alt="it's me"
           />
         </div>

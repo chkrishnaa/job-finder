@@ -1,4 +1,4 @@
-export const companies = [
+const companies = [
   "Google",
   "Amazon",
   "Figma",
@@ -12,7 +12,7 @@ export const companies = [
   "Walmart",
 ];
 
-export const jobCategory = [
+const jobCategory = [
   {
     name: "Digital Marketing",
     desc: "Promote brands online with marketing strategies",
@@ -65,17 +65,59 @@ export const jobCategory = [
   },
 ];
 
-export const work = [
+const work = [
   {
+    image: "CV",
     step: "Build your Resume",
     desc: "Create a standard Resume with your skills.",
   },
   {
+    image: "JobApplication",
     step: "Apply for Jobs",
     desc: "Find and apply for Jobs that match your skills.",
   },
   {
+    image: "Hired",
     step: "Get Hired",
     desc: "Connect with employeers and start your new Job.",
   },
 ];
+
+
+const testinomials = [
+  {
+    name: "Vivek Yadav",
+    testinomial:
+      "This job portal made job search easy and quick. Recommended to all job seekers!",
+    rating: 5,
+  },
+  {
+    name: "Karan Gupta",
+    testinomial:
+      "Found my dream job within a week! The application process was smooth.",
+    rating: 5,
+  },
+  {
+    name: "Sashikant Yadav",
+    testinomial:
+      "I secured a job offer within days of applying. Exceptional user experience and support.",
+    rating: 3.5,
+  },
+  {
+    name: "Rahul Chaurashiya",
+    testinomial:
+      "Highly efficient job portal with excellent resources. Helped me land a great position.",
+    rating: 4,
+  },
+];
+
+const footerLinks = [
+  { title: "Product", links: ["Find Job", "Find Company", "Find Employee"] },
+  {
+    title: "Company",
+    links: ["About Us", "Contact Us", "Privacy Policy", "Terms & Conditions"],
+  },
+  { title: "Support", links: ["Help & Support", "Feedback", "FAQs"] },
+];
+
+export { companies, jobCategory, work, testinomials, footerLinks };
