@@ -15,18 +15,18 @@ export default function DreamJob() {
         </div>
         <div className="flex gap-3 mt-5">
           <TextInput
-            className="bg-mine-shaft-900 rounded-lg p-1 px-2 text-mine-shaft-100 [&_input]:!text-mine-shaft-100"
+            className="bg-mine-shaft-900 rounded-lg p-1 px-2 text-mine-shaft-100 [&_input]:!text-mine-shaft-100 border border-transparent hover:bg-mine-shaft-700 hover:border-bright-sun-400 transition-colors duration-500 ease-in-out"
             placeholder="Software Engineer"
             label="Job Title"
             variant="unstyled"
           />
           <TextInput
-            className="bg-mine-shaft-900 rounded-lg p-1 px-2 text-mine-shaft-100 [&_input]:!text-mine-shaft-100"
+            className="bg-mine-shaft-900 rounded-lg p-1 px-2 text-mine-shaft-100 [&_input]:!text-mine-shaft-100 border border-transparent hover:bg-mine-shaft-700 hover:border-bright-sun-400 transition-colors duration-500 ease-in-out"
             placeholder="Full Time"
             label="Job Type"
             variant="unstyled"
           />
-          <div className="flex justify-center items-center h-full w-20 bg-bright-sun-400 text-mine-shaft-100 rounded-lg p-2 hover:bg-bright-sun-500 cursor-pointer">
+          <div className="flex justify-center items-center h-full w-20 bg-bright-sun-400 text-mine-shaft-100 rounded-lg p-2 hover:bg-bright-sun-500 cursor-pointer hover:transition-colors duration-200 ease-in-out">
             <IconSearch className="h-[85%] w-[85%]"></IconSearch>
           </div>
         </div>
