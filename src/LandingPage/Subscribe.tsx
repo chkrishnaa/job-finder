@@ -13,7 +13,7 @@ export default function Subscribe() {
           placeholder="Your@gmail.com"
           size="xl"
         />
-        <Button className="rounded-lg" color="brightSun.4" variant="filled" size="lg">
+        <Button className="!rounded-lg" color="brightSun.4" variant="filled" size="lg">
           Subscribe
         </Button>
       </div>

@@ -4,7 +4,7 @@ import { IconSearch } from "@tabler/icons-react";
 
 export default function DreamJob() {
   return (
-    <div className="flex items-center px-16 mt-10">
+    <div className="flex items-center px-16 pt-10">
       <div className="flex flex-col w-[45%] gap-5">
         <div className="text-6xl font-bold leading-tight text-mine-shaft-100 [&>span]:text-bright-sun-400">
           Find your <span>Dream Job</span> with us

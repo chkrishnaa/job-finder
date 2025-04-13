@@ -9,7 +9,7 @@ import NavLinks from "./NavLinks";
 
 export default function Header() {
   return (
-    <div className="w-full bg-mine-shaft-950 h-20 text-white flex justify-between px-6 items-center">
+    <div className="w-full bg-mine-shaft-950 h-20 text-white flex justify-between px-6 items-center bg-mine-shaft-950 font-['poppins']">
       <div className="flex gap-1 items-center text-bright-sun-400">
         <IconDeviceMobileSearch
           className="h-10 w-10"

@@ -26,7 +26,7 @@ export default function Testinomials() {
                 <Rating value={testinomial.rating} fractions={2} readOnly />
               </div>
             </div>
-            <div className="text-sm text-mine-shaft-300">
+            <div className="text-sm text-mine-shaft-300 text-justify">
               {testinomial.testinomial}
             </div>
           </div>
