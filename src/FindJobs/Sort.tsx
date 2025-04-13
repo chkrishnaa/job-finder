@@ -7,13 +7,13 @@ const opt = [
 ];
 
 export function Sort() {
-  const [selectedItem, setSelectedItem] = useState<string | null>(null);
+  const [selectedItem, setSelectedItem] = useState<string | null>('Relevance');
   const combobox = useCombobox({
     onDropdownClose: () => combobox.resetSelectedOption(),
   });
 
   const options = opt.map((item) => (
-    <Combobox.Option value={item} key={item}>
+    <Combobox.Option className="!text-xs" value={item} key={item}>
       {item}
     </Combobox.Option>
   ));
@@ -21,24 +21,17 @@ export function Sort() {
   return (
     <Combobox
       store={combobox}
-      width={250}
+      width={150}
       position="bottom-start"
-      withArrow
       onOptionSubmit={(val) => {
         setSelectedItem(val);
         combobox.closeDropdown();
       }}
     >
       <Combobox.Target>
-        <Button
-          variant="subtle"
-          color="bright-sun"
-          className="flex items-center gap-2 border border-bright-sun-400"
-          onClick={() => combobox.toggleDropdown()}
-        >
-          <IconAdjustments size={16} />
-          {selectedItem || "Sort By"}
-        </Button>
+        <div onClick={()=>combobox.toggleDropdown()} className="cursor-pointer border border-bright-sun-400 flex items-center gap-2 px-2 py-1 text-sm rounded-xl">
+          {selectedItem} <IconAdjustments className="h-5 w-5 text-bright-sun-400"/>
+        </div>
       </Combobox.Target>
 
       <Combobox.Dropdown>
