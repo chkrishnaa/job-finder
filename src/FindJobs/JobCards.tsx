@@ -2,44 +2,42 @@ import { IconBookmark, IconClockHour3 } from "@tabler/icons-react";
 import { Divider, Text } from "@mantine/core";
 import React from "react";
 
-export default function JobCards() {
+export default function JobCards(props: any) {
   return (
-    <div className="bg-mine-shaft-900 p-4 w-72">
+    <div className="bg-mine-shaft-900 p-4 w-80 flex flex-col gap-4 rounded-xl hover:shadow-[0_0_5px_1px_yellow] !shadow-bright-sun-400">
       <div className="flex justify-between">
-        <div className="flex gap-2">
+        <div className="flex gap-2 items-center">
           <div className="p-2 bg-mine-shaft-800 rounded-md">
             <img className="h-7" src="Google.png" alt="" />
           </div>
           <div>
-            <div>Product Designer</div>
+            <div className="font-semibold">{props.jobTitle}</div>
             <div className="text-xs text-mine-shaft-300">
-              Meta &#x2022; 25 Applicats
+              {props.company} &#x2022; {props.applicants} Applicats
             </div>
           </div>
         </div>
-        <IconBookmark />
+        <IconBookmark className="text-mine-shaft-300 cursor-pointer" />
       </div>
-      <div className="flex gap-2 [&>div]:py-1 [&>div]:px-2 [&>div]:bg-mine-shaft-800 [&>div]:text-bright-sun-400 [&>div]:rounded-lg text-xs">
-        <div>EntryLevel</div>
-        <div>Full Time</div>
-        <div>Remote</div>
+      <div className="flex gap-2 [&>div]:py-1 [&>div]:px-2 [&>div]:bg-mine-shaft-800 [&>div]:text-bright-sun-400 [&>div]:rounded-lg text-xs font-semibold">
+        <div>{props.experience}</div>
+        <div>{props.jobType}</div>
+        <div>{props.location}</div>
       </div>
-      <div>
-        <Text
-          className="text-sm text-justify text-mine-shaft-300"
-          lineClamp={4}
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis veniam
-          eaque nam quia delectus consectetur laborum voluptatum, sunt quos
-          tempora perspiciatis nemo eveniet sint accusamus velit ipsam aut fuga
-          ratione?
-        </Text>
-        <Divider size="xs" color="mineShaft.7" />
-      </div>
+      <Text
+        className="!text-xs text-justify !text-mine-shaft-300"
+        lineClamp={4}
+      >
+        {props.description}
+      </Text>
+      <Divider size="xs" color="mineShaft.7" />
       <div className="flex justify-between">
-        <div>&#8377; 24 LPA</div>
+        <div className="font-semibold text-mine-shaft-200">
+          &#8377;{props.package}
+        </div>
         <div className="flex gap-1 text-xs text-mine-shaft-400 items-center">
-          <IconClockHour3 className="h-5 w-5" stroke={1.5} /> 12 days ago
+          <IconClockHour3 className="h-5 w-5" stroke={1.5} />{" "}
+          {props.postedDaysAgo} days ago
         </div>
       </div>
     </div>

@@ -17,9 +17,9 @@ export default function SearchBar() {
         </>
       ))}
       <div className="w-1/5 [&_.mantine-Slider-label]:translate-y-10">
-        <div className='flex text-sm justify-between'>
-          <div>Salary</div>
-          <div>
+        <div className="flex text-sm justify-between">
+          <div className="font-semibold">Salary</div>
+          <div className="font-semibold">
             &#8377;{value[0]} LPA - &#8377;{value[1]} LPA
           </div>
         </div>
