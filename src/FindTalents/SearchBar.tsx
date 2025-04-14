@@ -1,14 +1,19 @@
-import React, { useState } from 'react'
-import { MultiInputs } from '../FindJobs/MultiInputs'
-import { dropdownData } from "../Data/JobData";
-import { Divider, RangeSlider } from '@mantine/core';
+import React, { useState } from "react";
+import { MultiInputs } from "../FindJobs/MultiInputs";
+import { Divider, Input, RangeSlider } from "@mantine/core";
+import { searchFields } from "../Data/TalentData";
+import { IconUserCircle } from "@tabler/icons-react";
 
 export default function SearchBar() {
   const [value, setValue] = useState<[number, number]>([1, 100]);
 
   return (
-    <div className="flex px-5 py-8">
-      {dropdownData.map((item, index) => (
+    <div className="flex px-5 py-8 items-center !text-mine-shaft-100">
+        <div className="flex item-center">
+            <div><IconUserCircle className="text-bright-sun-400 bg-mine-shaft-900 rounded-full p-1 mr-2" size={20} /></div>
+            <Input className="[&_input]:!placeholder-mine-shaft-300" variant="unstyled" placeholder="Search Talents"/>
+        </div>
+      {searchFields.map((item, index) => (
         <>
           <div key={index} className="w-1/5">
             <MultiInputs {...item} />

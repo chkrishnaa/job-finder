@@ -13,7 +13,7 @@ export default function JobCards(props: any) {
           <div>
             <div className="font-semibold">{props.jobTitle}</div>
             <div className="text-xs text-mine-shaft-300">
-              {props.company} &#x2022; {props.applicants} Applicats
+              {props.company} &bull; {props.applicants} Applicats
             </div>
           </div>
         </div>
