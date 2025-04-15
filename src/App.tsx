@@ -52,7 +52,7 @@ function App() {
           <Routes>
             <Route path="/find-jobs" element={<FindJobsPage />}></Route>
             <Route path="/find-talents" element={<FindTalentsPage />}></Route>
-            <Route path="/talent-profile" element={<TalentProfilePage />}></Route>
+            <Route path="/talent-profile" element={<TalentProfilePage/>}></Route>
             <Route path="*" element={<HomePage />}></Route>
           </Routes>
           <Footer />

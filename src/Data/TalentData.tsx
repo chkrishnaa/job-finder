@@ -73,7 +73,8 @@ const talents = [
       "As a Software Engineer at Google, I specialize in building scalable and high-performance applications. My expertise lies in integrating front-end and back-end technologies to deliver seamless user experiences. With a strong foundation in React and SpringBoot, and a focus on MongoDB for database solutions, I am passionate about leveraging the latest technologies to solve complex problems and drive innovation.",
     expectedCtc: "₹48 - 60 LPA",
     location: "New York, United States",
-    image: "avatar1",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "Aisha Khan",
@@ -84,7 +85,8 @@ const talents = [
       "Aisha is a Data Analyst at Amazon, where she excels at extracting meaningful insights from complex datasets. She is proficient in Python and SQL for data manipulation and Tableau for visualization. Aisha is dedicated to providing data-driven recommendations that contribute to strategic decision-making and operational efficiency.",
     expectedCtc: "₹35 - 45 LPA",
     location: "Seattle, United States",
-    image: "avatar2",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-2.png",
   },
   {
     name: "Carlos Rodriguez",
@@ -95,7 +97,8 @@ const talents = [
       "Carlos is a UX Designer at Airbnb, focusing on creating intuitive and user-friendly interfaces. His skills include user research, wireframing, and using Figma to design engaging experiences. Carlos is passionate about understanding user needs and translating them into effective design solutions that enhance user satisfaction.",
     expectedCtc: "₹40 - 50 LPA",
     location: "San Francisco, United States",
-    image: "avatar3",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-3.png",
   },
   {
     name: "Mei Lin",
@@ -106,7 +109,8 @@ const talents = [
       "Mei is a Marketing Specialist at Netflix, where she develops and implements successful marketing campaigns. Her expertise includes SEO, social media marketing, and content strategy. Mei is committed to driving brand awareness and engagement through creative and data-driven marketing initiatives.",
     expectedCtc: "₹30 - 40 LPA",
     location: "Los Angeles, United States",
-    image: "avatar4",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-4.png",
   },
   {
     name: "David Chen",
@@ -117,7 +121,8 @@ const talents = [
       "David is a Product Manager at Spotify, responsible for defining and executing product strategy. He is skilled in Agile methodologies, product roadmap development, and stakeholder management. David is focused on delivering innovative products that meet user needs and achieve business objectives.",
     expectedCtc: "₹55 - 70 LPA",
     location: "Stockholm, Sweden",
-    image: "avatar5",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-5.png",
   },
   {
     name: "Priya Sharma",
@@ -128,7 +133,8 @@ const talents = [
       "Priya is a Frontend Developer at Microsoft, specializing in building responsive and interactive user interfaces. Her proficiency in React, JavaScript, and HTML/CSS allows her to create engaging web applications. Priya is dedicated to writing clean, efficient code and staying up-to-date with the latest frontend technologies.",
     expectedCtc: "₹45 - 55 LPA",
     location: "Redmond, United States",
-    image: "avatar6",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-6.png",
   },
   {
     name: "Samuel Johnson",
@@ -139,7 +145,8 @@ const talents = [
       "Samuel is a Backend Developer at Twitter, focusing on building scalable and robust server-side applications. His expertise includes Node.js, Python, and SQL for database management. Samuel is committed to developing efficient and reliable backend systems that support high traffic and complex functionalities.",
     expectedCtc: "₹50 - 65 LPA",
     location: "San Francisco, United States",
-    image: "avatar7",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-7.png",
   },
   {
     name: "Olivia Wilson",
@@ -150,7 +157,8 @@ const talents = [
       "Olivia is a Sales Executive at Salesforce, where she excels at driving sales growth and building strong client relationships. Her skills include CRM management, developing effective sales strategies, and fostering long-term client relations. Olivia is passionate about achieving sales targets and providing exceptional customer service.",
     expectedCtc: "₹42 - 52 LPA",
     location: "San Francisco, United States",
-    image: "avatar8",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-8.png",
   },
   {
     name: "Ethan Garcia",
@@ -161,7 +169,8 @@ const talents = [
       "Ethan is a Content Writer at BuzzFeed, creating engaging and shareable content for online audiences. His skills include copywriting, SEO writing, and storytelling. Ethan is dedicated to crafting compelling narratives that resonate with readers and drive online engagement.",
     expectedCtc: "₹32 - 42 LPA",
     location: "New York, United States",
-    image: "avatar9",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-9.png",
   },
   {
     name: "Chloe Martinez",
@@ -172,7 +181,8 @@ const talents = [
       "Chloe is a DevOps Engineer at Adobe, focusing on automating and optimizing software development and deployment processes. Her expertise includes AWS, Docker, and CI/CD pipelines. Chloe is committed to improving efficiency and reliability through effective DevOps practices.",
     expectedCtc: "₹58 - 73 LPA",
     location: "San Jose, United States",
-    image: "avatar10",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-10.png",
   },
   {
     name: "Liam Robinson",
@@ -183,7 +193,8 @@ const talents = [
       "Liam is an AI/ML Engineer at NVIDIA, developing and implementing machine learning models. His skills include TensorFlow, PyTorch, and deep learning techniques. Liam is passionate about pushing the boundaries of AI and creating innovative solutions.",
     expectedCtc: "₹65 - 80 LPA",
     location: "Santa Clara, United States",
-    image: "avatar11",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-11.png",
   },
   {
     name: "Ava Clark",
@@ -198,7 +209,8 @@ const talents = [
       "Ava is a Cybersecurity Analyst at IBM, dedicated to protecting systems and data from cyber threats. Her expertise includes network security, incident response, and vulnerability management. Ava is committed to maintaining a secure digital environment and mitigating risks.",
     expectedCtc: "₹53 - 68 LPA",
     location: "Armonk, United States",
-    image: "avatar12",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-12.png",
   },
   {
     name: "Noah Lewis",
@@ -209,7 +221,8 @@ const talents = [
       "Noah is a Mobile Developer at Snapchat, building and maintaining iOS and Android applications. His skills include iOS and Android development using Swift and Kotlin. Noah is passionate about creating engaging and user-friendly mobile experiences.",
     expectedCtc: "₹47 - 62 LPA",
     location: "Los Angeles, United States",
-    image: "avatar13",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-13.png",
   },
   {
     name: "Isabella Young",
@@ -220,7 +233,8 @@ const talents = [
       "Isabella is a Game Developer at Ubisoft, creating immersive and interactive gaming experiences. Her skills include Unity, C#, and game design. Isabella is dedicated to developing innovative and entertaining games that captivate players.",
     expectedCtc: "₹51 - 66 LPA",
     location: "Montreal, Canada",
-    image: "avatar14",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-14.png",
   },
   {
     name: "Jackson Hall",
@@ -231,7 +245,8 @@ const talents = [
       "Jackson is a Cloud Architect at Oracle, designing and implementing scalable cloud solutions. His expertise includes AWS, Azure, and cloud computing strategies. Jackson is focused on helping organizations leverage cloud technologies to achieve their business goals.",
     expectedCtc: "₹60 - 75 LPA",
     location: "Redwood City, United States",
-    image: "avatar15",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-15.png",
   },
   {
     name: "Sophia Allen",
@@ -242,7 +257,8 @@ const talents = [
       "Sophia is a UI Designer at Pinterest, creating visually appealing and user-friendly interfaces. Her skills include user interface design, visual design, and using Adobe XD. Sophia is passionate about crafting intuitive and engaging user experiences.",
     expectedCtc: "₹49 - 64 LPA",
     location: "San Francisco, United States",
-    image: "avatar16",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-16.png",
   },
   {
     name: "Lucas Wright",
@@ -253,7 +269,8 @@ const talents = [
       "Lucas is a Data Scientist at LinkedIn, developing and applying machine learning algorithms. His expertise includes machine learning, data mining, and using R for statistical analysis. Lucas is committed to extracting valuable insights from data to improve user experiences.",
     expectedCtc: "₹68 - 83 LPA",
     location: "Mountain View, United States",
-    image: "avatar17",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-17.png",
   },
   {
     name: "Mia King",
@@ -264,7 +281,8 @@ const talents = [
       "Mia is a Technical Writer at Atlassian, creating clear and concise documentation for software products. Her skills include technical documentation, API documentation, and using Confluence. Mia is dedicated to providing users with helpful and accurate information.",
     expectedCtc: "₹44 - 59 LPA",
     location: "Sydney, Australia",
-    image: "avatar18",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-18.png",
   },
   {
     name: "Elijah Green",
@@ -275,7 +293,8 @@ const talents = [
       "Elijah is a Network Engineer at Cisco, designing and maintaining network infrastructure. His expertise includes network administration, Cisco routers, and firewalls. Elijah is committed to ensuring network reliability and security.",
     expectedCtc: "₹57 - 72 LPA",
     location: "San Jose, United States",
-    image: "avatar19",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-19.png",
   },
   {
     name: "Harper Adams",
@@ -286,7 +305,8 @@ const talents = [
       "Harper is a Business Analyst at McKinsey, analyzing business processes and providing strategic recommendations. Her skills include business analysis, process improvement, and using Excel for data analysis. Harper is focused on helping organizations achieve their operational and strategic goals.",
     expectedCtc: "₹46 - 61 LPA",
     location: "New York, United States",
-    image: "avatar20",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-20.png",
   },
   {
     name: "Benjamin Baker",
@@ -297,7 +317,8 @@ const talents = [
       "Benjamin is a QA Engineer at EA, ensuring the quality of video games. His skills include software testing, test automation, and using Jira for issue tracking. Benjamin is dedicated to delivering high-quality and bug-free gaming experiences.",
     expectedCtc: "₹52 - 67 LPA",
     location: "Redwood City, United States",
-    image: "avatar21",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-21.png",
   },
   {
     name: "Amelia Carter",
@@ -308,7 +329,8 @@ const talents = [
       "Amelia is a Database Administrator at MongoDB, managing and optimizing databases. Her expertise includes database management, MongoDB, and SQL. Amelia is committed to ensuring data integrity and efficient database performance.",
     expectedCtc: "₹55 - 70 LPA",
     location: "New York, United States",
-    image: "avatar22",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-22.png",
   },
   {
     name: "Henry Phillips",
@@ -319,7 +341,8 @@ const talents = [
       "Henry is a Project Manager at Accenture, leading and delivering IT projects. His skills include project planning, risk management, and Agile methodologies. Henry is focused on achieving project success and client satisfaction.",
     expectedCtc: "₹59 - 74 LPA",
     location: "Chicago, United States",
-    image: "avatar23",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-23.png",
   },
   {
     name: "Evelyn Mitchell",
@@ -330,7 +353,8 @@ const talents = [
       "Evelyn is an Animator at Pixar, creating lifelike and expressive characters. Her skills include 3D animation, character animation, and using Maya. Evelyn is passionate about bringing stories to life through animation.",
     expectedCtc: "₹48 - 63 LPA",
     location: "Emeryville, United States",
-    image: "avatar24",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-24.png",
   },
   {
     name: "Owen Roberts",
@@ -341,7 +365,8 @@ const talents = [
       "Owen is a Systems Administrator at VMware, managing virtualized infrastructure. His expertise includes system administration, virtualization, and VMware vSphere. Owen is committed to ensuring system stability and performance.",
     expectedCtc: "₹56 - 71 LPA",
     location: "Palo Alto, United States",
-    image: "avatar25",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-25.png",
   },
   {
     name: "Grace Turner",
@@ -352,7 +377,8 @@ const talents = [
       "Grace is a Financial Analyst at Goldman Sachs, analyzing financial data and providing investment recommendations. Her skills include financial analysis, investment analysis, and using Excel. Grace is focused on providing accurate and insightful financial analysis.",
     expectedCtc: "₹50 - 65 LPA",
     location: "New York, United States",
-    image: "avatar26",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "Carter Phillips",
@@ -363,7 +389,8 @@ const talents = [
       "Carter is a Data Engineer at Databricks, building and maintaining data pipelines. His expertise includes data pipelines, ETL processes, and Spark. Carter is committed to developing efficient and scalable data solutions.",
     expectedCtc: "₹58 - 73 LPA",
     location: "San Francisco, United States",
-    image: "avatar27",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "Scarlett Collins",
@@ -374,7 +401,8 @@ const talents = [
       "Scarlett is a Graphic Designer at Nike, creating visually compelling designs. Her skills include graphic design, Adobe Creative Suite, and branding. Scarlett is passionate about creating impactful and aesthetically pleasing designs.",
     expectedCtc: "₹47 - 62 LPA",
     location: "Beaverton, United States",
-    image: "avatar28",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "William Reed",
@@ -385,7 +413,8 @@ const talents = [
       "William is a Robotics Engineer at Boston Dynamics, designing and developing robotic systems. His expertise includes robotics, control systems, and Python programming. William is focused on pushing the boundaries of robotics technology.",
     expectedCtc: "₹67 - 82 LPA",
     location: "Waltham, United States",
-    image: "avatar29",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "Victoria Cook",
@@ -396,7 +425,8 @@ const talents = [
       "Victoria is an AI Researcher at DeepMind, dedicated to advancing the field of artificial intelligence. Her skills include artificial intelligence, machine learning, and conducting cutting-edge research. Victoria is passionate about developing innovative AI solutions that can transform industries and improve lives.",
     expectedCtc: "₹70 - 90 LPA",
     location: "London, United Kingdom",
-    image: "avatar30",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "James Murphy",
@@ -407,7 +437,8 @@ const talents = [
       "James is a Full Stack Developer at Accenture, proficient in both front-end and back-end development. His expertise includes JavaScript, Node.js, React, and SQL. James is dedicated to creating seamless and efficient web applications that meet client requirements.",
     expectedCtc: "₹62 - 77 LPA",
     location: "Chicago, United States",
-    image: "avatar31",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "Emily Bailey",
@@ -418,7 +449,8 @@ const talents = [
       "Emily is a Digital Marketing Manager at HubSpot, driving online marketing strategies. Her skills include SEO, content marketing, and digital marketing analytics. Emily is passionate about creating engaging campaigns that drive traffic and conversions.",
     expectedCtc: "₹54 - 69 LPA",
     location: "Cambridge, United States",
-    image: "avatar32",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "Daniel Rivera",
@@ -429,7 +461,8 @@ const talents = [
       "Daniel is an Embedded Systems Engineer at Intel, developing firmware and software for embedded systems. His expertise includes C/C++, microcontrollers, and real-time operating systems. Daniel is focused on creating efficient and reliable embedded solutions.",
     expectedCtc: "₹65 - 80 LPA",
     location: "Santa Clara, United States",
-    image: "avatar33",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "Madison Howard",
@@ -440,7 +473,8 @@ const talents = [
       "Madison is a Product Designer at Adobe, creating intuitive and user-centered product experiences. Her skills include product design, user experience, and prototyping. Madison is passionate about designing products that delight and empower users.",
     expectedCtc: "₹56 - 71 LPA",
     location: "San Jose, United States",
-    image: "avatar34",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "Joseph Ward",
@@ -451,7 +485,8 @@ const talents = [
       "Joseph is a Blockchain Developer at ConsenSys, building decentralized applications and smart contracts. His expertise includes blockchain technology, Solidity, and smart contract development. Joseph is dedicated to exploring the potential of blockchain technology.",
     expectedCtc: "₹70 - 85 LPA",
     location: "New York, United States",
-    image: "avatar35",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
   },
   {
     name: "Aarav Patel",
@@ -819,5 +854,99 @@ const talents = [
   },
 ];
 
+const profile = {
+  name: "Krishnakumar Chaurashiya",
+  role: "Software Engineer",
+  company: "Google",
+  location: "New York, United States",
+  about:
+    "As a Software Engineer at Google, I specialize in building scalable and high-performance applications. My expertise lies in integrating front-end and back-end technologies to deliver seamless user experiences. With a strong foundation in React and SpringBoot, and a focus on MongoDB for database solutions, I am passionate about leveraging the latest technologies to solve complex problems and drive innovation. My goal is to create impactful software that enhances productivity and meets user needs effectively.",
+  skills: [
+    "React",
+    "SpringBoot",
+    "MongoDB",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "MySQL",
+    "Python",
+    "Django",
+    "Figma",
+    "Sketch",
+    "Docker",
+    "AWS",
+  ],
+  experience: [
+    {
+      title: "Language Model Intern",
+      company: "Google AI",
+      location: "Mountain View, CA, United States",
+      startDate: "Jan 2023",
+      endDate: "Mar 2023",
+      description:
+        "Worked on improving the coherence and fluency of generated text by experimenting with different decoding strategies.  Developed a novel approach to prompt engineering that increased the accuracy of question answering by 15%. Collaborated with a team of researchers to identify and mitigate biases in training data.",
+    },
+    {
+      title: "Language Model Researcher",
+      company: "Google AI",
+      location: "Mountain View, CA, United States",
+      startDate: "Apr 2023",
+      endDate: "Sep 2023",
+      description:
+        "Conducted research on novel transformer architectures to enhance the model's ability to handle longer contexts.  Published a paper at a top-tier NLP conference detailing a new method for few-shot learning that improved performance on a variety of downstream tasks.  Presented research findings to internal teams and external stakeholders.",
+    },
+    {
+      title: "Senior Language Model",
+      company: "Google AI",
+      location: "Mountain View, CA, United States",
+      startDate: "Oct 2023",
+      endDate: "Present",
+      description:
+        "Currently responsible for developing and deploying advanced language models for various Google products and services. Leading a team of engineers in the development of a new conversational AI system.  Focusing on improving the model's ability to engage in more natural and human-like dialogue, and ensuring the responsible and ethical use of AI.",
+    },
+    {
+      title: "AI Writing Assistant",
+      company: "Google",
+      location: "Mountain View, CA, United States",
+      startDate: "Jan 2024",
+      endDate: "Present",
+      description:
+        "Assisted users with various writing tasks, including drafting emails, composing articles, and summarizing documents.  Integrated feedback from user interactions to continuously refine writing style and improve the accuracy and relevance of generated content.  Worked on features to detect and correct grammatical errors and suggest stylistic improvements.",
+    },
+    {
+      title: "Code Generation Specialist",
+      company: "Google",
+      location: "Mountain View, CA, United States",
+      startDate: "Mar 2024",
+      endDate: "Present",
+      description:
+        "Developed and fine-tuned models for generating code in multiple programming languages, including Python, JavaScript, and Java.  Worked on improving the accuracy and efficiency of code generation, and on incorporating user-provided specifications and constraints.  Contributed to the development of tools and APIs that allow developers to easily integrate code generation capabilities into their workflows.",
+    },
+  ],
+  certifications: [
+    {
+      name: "Advanced Natural Language Processing",
+      issuer: "Google AI",
+      issueDate: "Jan 2024",
+      certificateId: "NLP-2024-001",
+    },
+    {
+      name: "Large Language Models Fundamentals",
+      issuer: "Google Cloud",
+      issueDate: "Feb 2024",
+      certificateId: "LLM-2024-002",
+    },
+    {
+      name: "Machine Learning Professional",
+      issuer: "Coursera",
+      issueDate: "Mar 2024",
+      certificateId: "ML-2024-003",
+    },
+  ],
+};
 
-export { searchFields, talents };
+
+
+export { searchFields, talents, profile };

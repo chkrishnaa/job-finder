@@ -9,7 +9,11 @@ export default function TalentCards(props: any) {
       <div className="flex justify-between">
         <div className="flex gap-2 items-center">
           <div className="p-2 bg-mine-shaft-800 rounded-full">
-            <Avatar size="lg" src="/AvatarImages/avatar-3.png" alt="" />
+            <Avatar
+              size="lg"
+              src={props.image}
+              alt=""
+            />
           </div>
           <div>
             <div className="font-semibold">{props.name}</div>
