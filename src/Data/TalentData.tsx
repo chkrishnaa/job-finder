@@ -1,5 +1,4 @@
 import {
-  IconBriefcase,
   IconMapPin,
   IconRecharging,
   IconSearch,

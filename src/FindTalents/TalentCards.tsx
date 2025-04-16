@@ -1,11 +1,10 @@
 import { IconHeart, IconMapPin } from "@tabler/icons-react";
 import { Avatar, Button, Divider, Text } from "@mantine/core";
-import React from "react";
 import { Link } from "react-router-dom";
 
 export default function TalentCards(props: any) {
   return (
-    <div className="bg-mine-shaft-900 p-4 w-96 flex flex-col gap-4 rounded-xl hover:shadow-[0_0_5px_1px_yellow] !shadow-bright-sun-400">
+    <div className="bg-mine-shaft-900 p-4 flex flex-col gap-4 rounded-xl hover:shadow-[0_0_5px_1px_yellow] !shadow-bright-sun-400">
       <div className="flex justify-between">
         <div className="flex gap-2 items-center">
           <div className="p-2 bg-mine-shaft-800 rounded-full">
@@ -28,7 +27,7 @@ export default function TalentCards(props: any) {
         {props.topSkills?.map((skill: any, index: any) => (
           <div
             key={index}
-            className="p-2 py-1 bg-mine-shaft-800 rounded-lg text-bright-sun-400 text-xs"
+            className="p-2 py-1 bg-mine-shaft-800 rounded-lg text-bright-sun-400 text-xs font-semibold"
           >
             {skill}
           </div>

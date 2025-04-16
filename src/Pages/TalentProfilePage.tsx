@@ -8,7 +8,6 @@ import RecommendTalents from "../TalentProfile/RecommendTalents";
 export default function FindTalentsPage() {
   return (
     <div className='min-h-[100vh] bg-mine-shaft-950 font-["poppins"] px-3'>
-      <Divider size="xs" />
       <Link to="/find-talents" className="my-4 inline-block">
         <Button
           leftSection={<IconArrowLeft size={20} />}
@@ -20,7 +19,7 @@ export default function FindTalentsPage() {
       </Link>
       <div className="flex justify-between p-5">
         <Profile {...profile} />
-        <Divider size="md" orientation="vertical" />
+        <Divider orientation="vertical" className="mx-5"/>
         <RecommendTalents />
       </div>
     </div>

@@ -1,10 +1,9 @@
 import { IconBookmark, IconClockHour3 } from "@tabler/icons-react";
 import { Divider, Text } from "@mantine/core";
-import React from "react";
 
 export default function JobCards(props: any) {
   return (
-    <div className="bg-mine-shaft-900 p-4 w-80 flex flex-col gap-4 rounded-xl hover:shadow-[0_0_5px_1px_yellow] !shadow-bright-sun-400">
+    <div className="bg-mine-shaft-900 p-4 flex flex-col gap-4 rounded-xl hover:shadow-[0_0_5px_1px_yellow] !shadow-bright-sun-400">
       <div className="flex justify-between">
         <div className="flex gap-2 items-center">
           <div className="p-2 bg-mine-shaft-800 rounded-md">
