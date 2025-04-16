@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function ExperienceCard(props:any) {
+export default function ExperienceCard(props: any) {
   return (
     <div className="flex flex-col gap-2">
       <div className="flex justify-between">
@@ -15,7 +13,9 @@ export default function ExperienceCard(props:any) {
             </div>
           </div>
         </div>
-        <div className="text-sm text-mine-shaft-300">{props.startDate} - {props.endDate}</div>
+        <div className="text-sm text-mine-shaft-300">
+          {props.startDate} - {props.endDate}
+        </div>
       </div>
       <div className="text-sm text-mine-shaft-300 text-justify">
         {props.description}

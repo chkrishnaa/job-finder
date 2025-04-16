@@ -1,4 +1,3 @@
-import React from "react";
 import { TextInput, Avatar } from "@mantine/core";
 import { IconSearch } from "@tabler/icons-react";
 

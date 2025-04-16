@@ -1,5 +1,4 @@
 import { Carousel } from "@mantine/carousel";
-import React from "react";
 import { jobCategory } from "../Data/Data";
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 
@@ -46,7 +45,7 @@ export default function JobCategory() {
       >
         {jobCategory.map((category, index) => (
           <Carousel.Slide>
-            <div className="flex flex-col items-center w-64 gap-2 border border-bright-sun-400 p-5 rounded-xl hover:cursor-pointer hover:shadow-[0_0_5px_2px_black] my-5 !shadow-bright-sun-300 transition duration-500 ease-in-out">
+            <div key={index} className="flex flex-col items-center w-64 gap-2 border border-bright-sun-400 p-5 rounded-xl hover:cursor-pointer hover:shadow-[0_0_5px_2px_black] my-5 !shadow-bright-sun-300 transition duration-500 ease-in-out">
               <div className="p-2 bg-bright-sun-300 rounded-full">
                 <img
                   className="h-8 w-8"
