@@ -74,7 +74,7 @@ const talents = [
     expectedCtc: "₹48 - 60 LPA",
     location: "New York, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-1.png", // Corrected URL
   },
   {
     name: "Aisha Khan",
@@ -86,7 +86,7 @@ const talents = [
     expectedCtc: "₹35 - 45 LPA",
     location: "Seattle, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-2.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-2.png",
   },
   {
     name: "Carlos Rodriguez",
@@ -98,7 +98,7 @@ const talents = [
     expectedCtc: "₹40 - 50 LPA",
     location: "San Francisco, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-3.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-3.png",
   },
   {
     name: "Mei Lin",
@@ -110,7 +110,7 @@ const talents = [
     expectedCtc: "₹30 - 40 LPA",
     location: "Los Angeles, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-4.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-4.png",
   },
   {
     name: "David Chen",
@@ -122,7 +122,7 @@ const talents = [
     expectedCtc: "₹55 - 70 LPA",
     location: "Stockholm, Sweden",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-5.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-5.png",
   },
   {
     name: "Priya Sharma",
@@ -134,7 +134,7 @@ const talents = [
     expectedCtc: "₹45 - 55 LPA",
     location: "Redmond, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-6.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-6.png",
   },
   {
     name: "Samuel Johnson",
@@ -146,7 +146,7 @@ const talents = [
     expectedCtc: "₹50 - 65 LPA",
     location: "San Francisco, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-7.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-7.png",
   },
   {
     name: "Olivia Wilson",
@@ -158,7 +158,7 @@ const talents = [
     expectedCtc: "₹42 - 52 LPA",
     location: "San Francisco, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-8.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-8.png",
   },
   {
     name: "Ethan Garcia",
@@ -170,7 +170,7 @@ const talents = [
     expectedCtc: "₹32 - 42 LPA",
     location: "New York, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-9.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-9.png",
   },
   {
     name: "Chloe Martinez",
@@ -182,7 +182,7 @@ const talents = [
     expectedCtc: "₹58 - 73 LPA",
     location: "San Jose, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-10.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-10.png",
   },
   {
     name: "Liam Robinson",
@@ -194,7 +194,7 @@ const talents = [
     expectedCtc: "₹65 - 80 LPA",
     location: "Santa Clara, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-11.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-11.png",
   },
   {
     name: "Ava Clark",
@@ -210,7 +210,7 @@ const talents = [
     expectedCtc: "₹53 - 68 LPA",
     location: "Armonk, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-12.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-12.png",
   },
   {
     name: "Noah Lewis",
@@ -222,7 +222,7 @@ const talents = [
     expectedCtc: "₹47 - 62 LPA",
     location: "Los Angeles, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-13.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-13.png",
   },
   {
     name: "Isabella Young",
@@ -234,7 +234,7 @@ const talents = [
     expectedCtc: "₹51 - 66 LPA",
     location: "Montreal, Canada",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-14.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-14.png",
   },
   {
     name: "Jackson Hall",
@@ -246,7 +246,7 @@ const talents = [
     expectedCtc: "₹60 - 75 LPA",
     location: "Redwood City, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-15.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-15.png",
   },
   {
     name: "Sophia Allen",
@@ -258,7 +258,7 @@ const talents = [
     expectedCtc: "₹49 - 64 LPA",
     location: "San Francisco, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-16.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-16.png",
   },
   {
     name: "Lucas Wright",
@@ -270,7 +270,7 @@ const talents = [
     expectedCtc: "₹68 - 83 LPA",
     location: "Mountain View, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-17.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-17.png",
   },
   {
     name: "Mia King",
@@ -282,7 +282,7 @@ const talents = [
     expectedCtc: "₹44 - 59 LPA",
     location: "Sydney, Australia",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-18.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-18.png",
   },
   {
     name: "Elijah Green",
@@ -294,7 +294,7 @@ const talents = [
     expectedCtc: "₹57 - 72 LPA",
     location: "San Jose, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-19.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-19.png",
   },
   {
     name: "Harper Adams",
@@ -306,7 +306,7 @@ const talents = [
     expectedCtc: "₹46 - 61 LPA",
     location: "New York, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-20.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-20.png",
   },
   {
     name: "Benjamin Baker",
@@ -318,7 +318,7 @@ const talents = [
     expectedCtc: "₹52 - 67 LPA",
     location: "Redwood City, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-21.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-21.png",
   },
   {
     name: "Amelia Carter",
@@ -330,7 +330,7 @@ const talents = [
     expectedCtc: "₹55 - 70 LPA",
     location: "New York, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-22.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-22.png",
   },
   {
     name: "Henry Phillips",
@@ -342,7 +342,7 @@ const talents = [
     expectedCtc: "₹59 - 74 LPA",
     location: "Chicago, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-23.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-23.png",
   },
   {
     name: "Evelyn Mitchell",
@@ -354,7 +354,7 @@ const talents = [
     expectedCtc: "₹48 - 63 LPA",
     location: "Emeryville, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-24.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-24.png",
   },
   {
     name: "Owen Roberts",
@@ -366,7 +366,7 @@ const talents = [
     expectedCtc: "₹56 - 71 LPA",
     location: "Palo Alto, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-25.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-25.png",
   },
   {
     name: "Grace Turner",
@@ -378,7 +378,7 @@ const talents = [
     expectedCtc: "₹50 - 65 LPA",
     location: "New York, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-26.png",
   },
   {
     name: "Carter Phillips",
@@ -390,7 +390,7 @@ const talents = [
     expectedCtc: "₹58 - 73 LPA",
     location: "San Francisco, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-27.png",
   },
   {
     name: "Scarlett Collins",
@@ -402,7 +402,7 @@ const talents = [
     expectedCtc: "₹47 - 62 LPA",
     location: "Beaverton, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-28.png",
   },
   {
     name: "William Reed",
@@ -414,7 +414,7 @@ const talents = [
     expectedCtc: "₹67 - 82 LPA",
     location: "Waltham, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-29.png",
   },
   {
     name: "Victoria Cook",
@@ -426,7 +426,7 @@ const talents = [
     expectedCtc: "₹70 - 90 LPA",
     location: "London, United Kingdom",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-30.png",
   },
   {
     name: "James Murphy",
@@ -438,7 +438,7 @@ const talents = [
     expectedCtc: "₹62 - 77 LPA",
     location: "Chicago, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-31.png",
   },
   {
     name: "Emily Bailey",
@@ -450,7 +450,7 @@ const talents = [
     expectedCtc: "₹54 - 69 LPA",
     location: "Cambridge, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-32.png",
   },
   {
     name: "Daniel Rivera",
@@ -462,7 +462,7 @@ const talents = [
     expectedCtc: "₹65 - 80 LPA",
     location: "Santa Clara, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-33.png",
   },
   {
     name: "Madison Howard",
@@ -474,7 +474,7 @@ const talents = [
     expectedCtc: "₹56 - 71 LPA",
     location: "San Jose, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-34.png",
   },
   {
     name: "Joseph Ward",
@@ -486,7 +486,7 @@ const talents = [
     expectedCtc: "₹70 - 85 LPA",
     location: "New York, United States",
     image:
-      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Web_Project_Images/Job_Finder_Images/AvatarImages/Avatar-1.png",
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-35.png",
   },
   {
     name: "Aarav Patel",
@@ -497,7 +497,8 @@ const talents = [
       "Aarav is a Software Engineer at Infosys, specializing in building scalable microservices. His expertise includes Java, Spring Boot, and cloud technologies. Aarav is passionate about developing robust and efficient software solutions.",
     expectedCtc: "₹55 - 70 LPA",
     location: "Bangalore, India",
-    image: "avatar36",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-36.png",
   },
   {
     name: "Sneha Reddy",
@@ -508,7 +509,8 @@ const talents = [
       "Sneha is a Data Scientist at Flipkart, applying machine learning to improve customer experience. Her skills include Python, machine learning algorithms, and data analysis. Sneha is dedicated to extracting insights from data to drive business decisions.",
     expectedCtc: "₹60 - 75 LPA",
     location: "Bangalore, India",
-    image: "avatar37",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-37.png",
   },
   {
     name: "Rahul Sharma",
@@ -519,7 +521,8 @@ const talents = [
       "Rahul is a Frontend Developer at Paytm, building interactive user interfaces. His expertise includes React, JavaScript, and modern frontend frameworks. Rahul is committed to creating seamless and engaging web experiences.",
     expectedCtc: "₹50 - 65 LPA",
     location: "Noida, India",
-    image: "avatar38",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-38.png",
   },
   {
     name: "Priya Singh",
@@ -530,7 +533,8 @@ const talents = [
       "Priya is a UX Designer at Ola, focusing on user-centered design. Her skills include user research, wireframing, and using Figma to create intuitive interfaces. Priya is passionate about designing solutions that enhance user satisfaction.",
     expectedCtc: "₹52 - 67 LPA",
     location: "Bangalore, India",
-    image: "avatar39",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-39.png",
   },
   {
     name: "Vikram Kumar",
@@ -541,7 +545,8 @@ const talents = [
       "Vikram is a Backend Developer at Zomato, building scalable server-side applications. His expertise includes Node.js, Python, and database management. Vikram is dedicated to developing efficient and reliable backend systems.",
     expectedCtc: "₹58 - 73 LPA",
     location: "Gurgaon, India",
-    image: "avatar40",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-40.png",
   },
   {
     name: "Ananya Desai",
@@ -552,7 +557,8 @@ const talents = [
       "Ananya is a Digital Marketing Specialist at Myntra, driving online marketing campaigns. Her skills include SEO, social media marketing, and content strategy. Ananya is committed to creating engaging content that boosts brand awareness.",
     expectedCtc: "₹48 - 63 LPA",
     location: "Bangalore, India",
-    image: "avatar41",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-41.png",
   },
   {
     name: "Arjun Menon",
@@ -563,7 +569,8 @@ const talents = [
       "Arjun is a Cloud Architect at Wipro, designing and implementing cloud solutions. His expertise includes AWS, Azure, and cloud infrastructure management. Arjun is focused on helping businesses leverage cloud technologies effectively.",
     expectedCtc: "₹65 - 80 LPA",
     location: "Hyderabad, India",
-    image: "avatar42",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-42.png",
   },
   {
     name: "Divya Iyer",
@@ -574,7 +581,8 @@ const talents = [
       "Divya is a QA Engineer at TCS, ensuring software quality through rigorous testing. Her skills include software testing, automation testing, and using Jira for bug tracking. Divya is dedicated to delivering high-quality software products.",
     expectedCtc: "₹53 - 68 LPA",
     location: "Chennai, India",
-    image: "avatar43",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-43.png",
   },
   {
     name: "Karan Verma",
@@ -585,7 +593,8 @@ const talents = [
       "Karan is a Mobile Developer at ShareChat, building engaging Android applications. His expertise includes Android development, Kotlin, and mobile UI/UX design. Karan is passionate about creating seamless mobile experiences.",
     expectedCtc: "₹56 - 71 LPA",
     location: "Bangalore, India",
-    image: "avatar44",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-44.png",
   },
   {
     name: "Ishita Kapoor",
@@ -596,7 +605,8 @@ const talents = [
       "Ishita is an AI/ML Engineer at Fractal Analytics, developing machine learning models. Her skills include machine learning algorithms, deep learning, and Python. Ishita is focused on applying AI to solve complex business problems.",
     expectedCtc: "₹68 - 83 LPA",
     location: "Mumbai, India",
-    image: "avatar45",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-45.png",
   },
   {
     name: "Manish Gupta",
@@ -611,7 +621,8 @@ const talents = [
       "Manish is a Systems Administrator at HCL Technologies, managing and maintaining IT infrastructure. His expertise includes Linux administration, network security, and server management. Manish is committed to ensuring system stability and security.",
     expectedCtc: "₹54 - 69 LPA",
     location: "Noida, India",
-    image: "avatar46",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-46.png",
   },
   {
     name: "Simran Kaur",
@@ -622,7 +633,8 @@ const talents = [
       "Simran is a Technical Writer at Freshworks, creating clear and concise documentation. Her skills include technical documentation, API documentation, and using Confluence. Simran is dedicated to providing users with helpful information.",
     expectedCtc: "₹50 - 65 LPA",
     location: "Chennai, India",
-    image: "avatar47",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-47.png",
   },
   {
     name: "Rohan Joshi",
@@ -633,7 +645,8 @@ const talents = [
       "Rohan is a Data Engineer at Swiggy, building and maintaining data pipelines. His expertise includes data pipelines, ETL processes, and Spark. Rohan is focused on developing scalable and efficient data solutions.",
     expectedCtc: "₹62 - 77 LPA",
     location: "Bangalore, India",
-    image: "avatar48",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-48.png",
   },
   {
     name: "Neha Banerjee",
@@ -644,7 +657,8 @@ const talents = [
       "Neha is a Graphic Designer at BookMyShow, creating visually appealing designs. Her skills include graphic design, Adobe Creative Suite, and branding. Neha is passionate about creating impactful visual content.",
     expectedCtc: "₹47 - 62 LPA",
     location: "Mumbai, India",
-    image: "avatar49",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-49.png",
   },
   {
     name: "Siddharth Rao",
@@ -659,7 +673,8 @@ const talents = [
       "Siddharth is a Cybersecurity Analyst at Wipro, protecting systems from cyber threats. His expertise includes network security, incident response, and vulnerability assessment. Siddharth is committed to maintaining a secure digital environment.",
     expectedCtc: "₹58 - 73 LPA",
     location: "Hyderabad, India",
-    image: "avatar50",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-50.png",
   },
   {
     name: "Tanvi Mehra",
@@ -670,7 +685,8 @@ const talents = [
       "Tanvi is a Product Manager at MakeMyTrip, driving product development. Her skills include product strategy, Agile methodologies, and stakeholder management. Tanvi is focused on delivering products that meet user needs and business goals.",
     expectedCtc: "₹60 - 75 LPA",
     location: "Gurgaon, India",
-    image: "avatar51",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-51.png",
   },
   {
     name: "Varun Iyer",
@@ -681,7 +697,8 @@ const talents = [
       "Varun is a Blockchain Engineer at Polygon Technology, developing decentralized applications. His expertise includes blockchain technology, Solidity, and smart contract development. Varun is passionate about exploring the potential of blockchain.",
     expectedCtc: "₹72 - 87 LPA",
     location: "Bangalore, India",
-    image: "avatar52",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-52.png",
   },
   {
     name: "Deepika Patel",
@@ -692,7 +709,8 @@ const talents = [
       "Deepika is an Embedded Systems Engineer at Tata Elxsi, developing firmware and software for embedded devices. Her skills include C/C++, real-time systems, and embedded Linux. Deepika is focused on creating efficient and reliable embedded solutions.",
     expectedCtc: "₹63 - 78 LPA",
     location: "Bangalore, India",
-    image: "avatar53",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-53.png",
   },
   {
     name: "Gaurav Sharma",
@@ -703,7 +721,8 @@ const talents = [
       "Gaurav is a Full Stack Developer at Mindtree, proficient in both front-end and back-end development. His expertise includes JavaScript, Node.js, React, and SQL. Gaurav is dedicated to creating seamless web applications.",
     expectedCtc: "₹61 - 76 LPA",
     location: "Pune, India",
-    image: "avatar54",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-54.png",
   },
   {
     name: "Kavita Reddy",
@@ -714,7 +733,8 @@ const talents = [
       "Kavita is a Data Analyst at BigBasket, extracting insights from large datasets. Her skills include Python, SQL, and data visualization tools. Kavita is passionate about providing data-driven recommendations for business growth.",
     expectedCtumpc: "₹52 - 67 LPA",
     location: "Bangalore, India",
-    image: "avatar55",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-55.png",
   },
   {
     name: "Mohan Kumar",
@@ -725,7 +745,8 @@ const talents = [
       "Mohan is a UI/UX Designer at PolicyBazaar, creating intuitive and user-friendly interfaces. His skills include user interface design, user experience, and prototyping. Mohan is dedicated to enhancing user satisfaction.",
     expectedCtc: "₹55 - 70 LPA",
     location: "Gurgaon, India",
-    image: "avatar56",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-56.png",
   },
   {
     name: "Nandini Singh",
@@ -736,7 +757,8 @@ const talents = [
       "Nandini is a DevOps Engineer at Capgemini, automating and streamlining development processes. Her skills include AWS, Docker, and CI/CD pipelines. Nandini is committed to improving efficiency and reliability.",
     expectedCtc: "₹64 - 79 LPA",
     location: "Mumbai, India",
-    image: "avatar57",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-57.png",
   },
   {
     name: "Omkar Joshi",
@@ -747,7 +769,8 @@ const talents = [
       "Omkar is a Robotics Engineer at GreyOrange, designing and developing robotic systems. His skills include robotics, control systems, and Python programming. Omkar is focused on pushing the boundaries of robotics technology.",
     expectedCtc: "₹69 - 84 LPA",
     location: "Pune, India",
-    image: "avatar58",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-58.png",
   },
   {
     name: "Parvati Iyer",
@@ -762,7 +785,8 @@ const talents = [
       "Parvati is an AI Researcher at Arya.ai, advancing the field of artificial intelligence. Her skills include machine learning, natural language processing, and conducting cutting-edge research. Parvati is passionate about developing innovative AI solutions for financial services.",
     expectedCtc: "₹71 - 86 LPA",
     location: "Mumbai, India",
-    image: "avatar59",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-59.png",
   },
   {
     name: "Raghav Reddy",
@@ -773,7 +797,8 @@ const talents = [
       "Raghav is a Full Stack Developer at BrowserStack, building robust web applications. His expertise includes JavaScript, React, Node.js, and MongoDB. Raghav is committed to creating efficient and scalable solutions for cross-browser testing.",
     expectedCtc: "₹63 - 78 LPA",
     location: "Mumbai, India",
-    image: "avatar60",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-60.png",
   },
   {
     name: "Sakshi Verma",
@@ -784,7 +809,8 @@ const talents = [
       "Sakshi is a Data Analyst at Grofers, extracting actionable insights from large datasets. Her skills include SQL, Python, and data visualization. Sakshi is passionate about using data to drive strategic decisions and improve operational efficiency.",
     expectedCtc: "₹53 - 68 LPA",
     location: "Gurgaon, India",
-    image: "avatar61",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-61.png",
   },
   {
     name: "Tejas Desai",
@@ -795,7 +821,8 @@ const talents = [
       "Tejas is a UI/UX Designer at PhonePe, focusing on creating intuitive and user-centered interfaces. His skills include user research, wireframing, and prototyping. Tejas is dedicated to enhancing the user experience for mobile payment solutions.",
     expectedCtc: "₹56 - 71 LPA",
     location: "Bangalore, India",
-    image: "avatar62",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-62.png",
   },
   {
     name: "Urvashi Singh",
@@ -806,7 +833,8 @@ const talents = [
       "Urvashi is a DevOps Engineer at Sprinklr, automating and optimizing development processes. Her skills include AWS, Docker, and Kubernetes. Urvashi is committed to improving the efficiency and reliability of cloud-based infrastructure.",
     expectedCtc: "₹65 - 80 LPA",
     location: "Gurgaon, India",
-    image: "avatar63",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-63.png",
   },
   {
     name: "Vivek Khanna",
@@ -817,7 +845,8 @@ const talents = [
       "Vivek is a Robotics Engineer at Swaayatt Robots, developing autonomous driving technologies. His skills include ROS, computer vision, and Python. Vivek is passionate about creating innovative solutions for self-driving vehicles.",
     expectedCtc: "₹70 - 85 LPA",
     location: "Bhopal, India",
-    image: "avatar64",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-64.png",
   },
   {
     name: "Yamini Iyer",
@@ -828,7 +857,8 @@ const talents = [
       "Yamini is an AI Researcher at SigTuple, developing AI-powered solutions for medical diagnostics. Her skills include deep learning, medical imaging analysis, and Python. Yamini is dedicated to improving healthcare outcomes through AI.",
     expectedCtc: "₹72 - 87 LPA",
     location: "Bangalore, India",
-    image: "avatar65",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-65.png",
   },
   {
     name: "Zubin Patel",
@@ -839,7 +869,8 @@ const talents = [
       "Zubin is a Full Stack Developer at Razorpay, building robust payment solutions. His expertise includes JavaScript, React, Node.js, and PostgreSQL. Zubin is committed to creating seamless and secure payment experiences.",
     expectedCtc: "₹64 - 79 LPA",
     location: "Bangalore, India",
-    image: "avatar66",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-66.png",
   },
   {
     name: "Aadya Sharma",
@@ -850,7 +881,8 @@ const talents = [
       "Aadya is a Data Analyst at Dunzo, extracting insights from delivery data. Her skills include SQL, Python, and Tableau. Aadya is passionate about using data to optimize delivery operations and improve customer satisfaction.",
     expectedCtc: "₹54 - 69 LPA",
     location: "Bangalore, India",
-    image: "avatar67",
+    image:
+      "https://raw.githubusercontent.com/chkrishnaa/Web-Project-Images/main/Job_Finder_Images/AvatarImages/Avatar-67.png",
   },
 ];
 
