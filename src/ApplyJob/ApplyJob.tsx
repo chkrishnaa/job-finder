@@ -1,6 +1,5 @@
 import {
   Button,
-  CheckIcon,
   Divider,
   FileInput,
   LoadingOverlay,
@@ -11,7 +10,7 @@ import {
   rem,
 } from "@mantine/core";
 import { IconCheck, IconPaperclip } from "@tabler/icons-react";
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function ApplyJob() {
@@ -165,7 +164,7 @@ export default function ApplyJob() {
         </div>
       </div>
       <Notification
-        className={`z-[1001] border-bright-sun-400 -translate-y-20 !fixed top-0 left-[50%] translate-x-[-50%] absolute transition duration-300 ease-in-out ${submit ? "translate-y-0" : "-translate-y-20"} `}
+        className={`z-[1001] border-bright-sun-400 -translate-y-20 !fixed top-0 left-[50%] translate-x-[-50%] transition duration-300 ease-in-out ${submit ? "translate-y-0" : "-translate-y-20"} `}
         icon={<IconCheck style={{ width: rem(20), height: rem(20) }} />}
         color="brightSun.4"
         withBorder
