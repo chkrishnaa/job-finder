@@ -1,4 +1,20 @@
 @import "tailwindcss";
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+@layer base {
+    ul, ol{
+        list-style:revert !important;
+        font-size: medium;
+    }
+    p{
+        font-size: medium;
+    }
+    li{
+        margin-left: 2em;
+    }
+}
 
 @theme {
     --color-mine-shaft-50: #f6f6f6;

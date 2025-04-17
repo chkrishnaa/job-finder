@@ -2,6 +2,7 @@ import './App.css'
 import "@mantine/carousel/styles.css";
 import { MantineProvider, createTheme } from '@mantine/core';
 import '@mantine/core/styles.css';
+import "@mantine/tiptap/styles.css";
 import HomePage from './Pages/HomePage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from "./Header/Header";
@@ -9,6 +10,10 @@ import Footer from "./Footer/Footer";
 import FindTalentsPage from './Pages/FindTalentsPage';
 import FindJobsPage from './Pages/FindJobsPage';
 import TalentProfilePage from './Pages/TalentProfilePage';
+import JobDesriptionPage from './Pages/JobDescriptionPage';
+import PostJobPage from './Pages/PostJobPage';
+import ApplyJobPage from './Pages/ApplyJobPage';
+import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
   const theme = createTheme({
@@ -41,18 +46,34 @@ function App() {
         "#461902",
       ],
     },
-    fontFamily: "Poppins, sans-serif"
+    fontFamily: "Poppins, sans-serif",
+    focusRing: "never",
+    primaryColor: "brightSun",
+    primaryShade: 4,
   });
 
   return (
     <>
       <MantineProvider defaultColorScheme="dark" theme={theme}>
         <BrowserRouter>
+        <ScrollToTop/>
           <Header />
           <Routes>
             <Route path="/find-jobs" element={<FindJobsPage />}></Route>
             <Route path="/find-talents" element={<FindTalentsPage />}></Route>
-            <Route path="/talent-profile" element={<TalentProfilePage/>}></Route>
+            <Route path="/post-job" element={<PostJobPage />}></Route>
+            <Route
+              path="/job-description"
+              element={<JobDesriptionPage />}
+            ></Route>
+            <Route
+              path="/apply-job"
+              element={<ApplyJobPage />}
+            ></Route>
+            <Route
+              path="/talent-profile"
+              element={<TalentProfilePage />}
+            ></Route>
             <Route path="*" element={<HomePage />}></Route>
           </Routes>
           <Footer />

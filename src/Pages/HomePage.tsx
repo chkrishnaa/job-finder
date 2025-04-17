@@ -7,7 +7,7 @@ import Subscribe from '../LandingPage/Subscribe'
 
 export default function HomePage() {
   return (
-    <div className='min-h-[100vh] bg-mine-shaft-950 font-["poppins"]'>
+    <div className='min-h-[100vh] bg-mine-shaft-950 font-["poppins"] py-10'>
       <DreamJob/>
       <Companies/>
       <JobCategory/>
