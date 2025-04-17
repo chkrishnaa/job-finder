@@ -32,7 +32,7 @@ export default function JobDescription() {
         </div>
       </div>
       <Divider my="xl" />
-      <div className="flex justify-between">
+      <div className="flex justify-around">
         {card.map((item: any, index: number) => (
           <div key={index} className="flex flex-col items-center gap-1">
             <ActionIcon
@@ -74,7 +74,7 @@ export default function JobDescription() {
       </div>
       <Divider my="xl" />
       <div
-        className="[&_h4]:text-xl [&_*]:text-mine-shaft-300 [&_li]:marker:text-bright-sun-400  [&_li]:mb-1 [&_h4]:my-5 [&_h4]:font-semibold [&_h4]:text-mine-shaft-200 [&_p]:text-justify"
+        className="[&_h4]:text-xl [&_*]:text-mine-shaft-300 [&_li]:marker:text-bright-sun-400  [&_li]:mb-1 [&_h4]:mt-5 [&_h4]:mb-2 [&_h4]:font-semibold [&_h4]:text-mine-shaft-200 [&_p]:text-justify"
         dangerouslySetInnerHTML={{ __html: data }}
       ></div>
       <Divider my="xl" />
