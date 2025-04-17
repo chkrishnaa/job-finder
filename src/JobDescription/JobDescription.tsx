@@ -1,6 +1,5 @@
 import { ActionIcon, Button, Divider } from "@mantine/core";
-import { IconBookmark, IconMapPin } from "@tabler/icons-react";
-import React from "react";
+import { IconBookmark } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
 import { card, jobDesc, requiredSkills } from "../Data/JobDescriptionData";
 //@ts-ignore

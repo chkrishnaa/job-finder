@@ -1,4 +1,3 @@
-import React from 'react'
 import JobCards from '../FindJobs/JobCards';
 import { jobList } from '../Data/JobData';
 import { Link } from 'react-router-dom';

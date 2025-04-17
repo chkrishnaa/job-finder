@@ -1,9 +1,6 @@
 import { Button, Divider } from "@mantine/core";
 import { IconArrowLeft } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
-import Profile from "../TalentProfile/Profile";
-import { profile } from "../Data/TalentData";
-import RecommendTalents from "../TalentProfile/RecommendTalents";
 import JobDescription from "../JobDescription/JobDescription";
 import RecommendedJobs from "../JobDescription/RecommendedJobs";
 

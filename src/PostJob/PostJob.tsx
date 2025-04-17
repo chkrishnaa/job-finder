@@ -1,4 +1,3 @@
-import React from "react";
 import { SelectInput } from "./SelectInput";
 import { fields } from "../Data/PostJobData";
 import { Button, TagsInput } from "@mantine/core";

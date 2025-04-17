@@ -1,5 +1,4 @@
 import { Divider, TextInput } from '@mantine/core';
-import React from 'react'
 
 export default function ApplyJob() {
   return (
