@@ -15,6 +15,7 @@ import PostJobPage from './Pages/PostJobPage';
 // import ApplyJobPage from './Pages/ApplyJobPage';
 import { ScrollToTop } from './components/ScrollToTop';
 import ApplyJobPage from './Pages/ApplyJobPage';
+import CompanyPage from './Pages/CompanyPage';
 
 function App() {
   const theme = createTheme({
@@ -58,11 +59,12 @@ function App() {
       <MantineProvider defaultColorScheme="dark" theme={theme}>
         <BrowserRouter>
           <ScrollToTop />
-          <div className='relative'>
+          <div className="relative">
             <Header />
             <Routes>
               <Route path="/find-jobs" element={<FindJobsPage />}></Route>
               <Route path="/find-talents" element={<FindTalentsPage />}></Route>
+              <Route path="/company" element={<CompanyPage />}></Route>
               <Route path="/post-job" element={<PostJobPage />}></Route>
               <Route
                 path="/job-description"
