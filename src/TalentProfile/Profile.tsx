@@ -22,7 +22,6 @@ export default function Profile(props: any) {
           </Button>
         </div>
         <div className="flex text-xl items-center">
-          {" "}
           <IconBriefcase className="h-5 w-5" stroke={2} />
           <span className="ml-3">
             {props.role} &bull; {props.company}

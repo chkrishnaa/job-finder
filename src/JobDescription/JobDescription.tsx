@@ -91,7 +91,7 @@ export default function JobDescription() {
             </div>
           </div>
 
-          <Link to="" className="py-2">
+          <Link to="/company" className="py-2">
             <Button variant="light" color="brightSun.4">
               Company Page
             </Button>
