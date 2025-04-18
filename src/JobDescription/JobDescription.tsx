@@ -5,7 +5,7 @@ import { card, jobDesc, requiredSkills } from "../Data/JobDescriptionData";
 //@ts-ignore
 import DOMPurify from "dompurify";
 
-export default function JobDescription() {
+export default function JobDescription(props: any) {
   const data = DOMPurify.sanitize(jobDesc);
   return (
     <div className="w-2/3 border border-mine-shaft-600 rounded-2xl py-10 px-5">
@@ -22,11 +22,17 @@ export default function JobDescription() {
           </div>
         </div>
         <div className="flex flex-col gap-2 items-end justify-between">
-          <IconBookmark className="text-bright-sun-400 cursor-pointer" />
+          {props.edit ? (
+            <Button variant="outline" color="red.5" size="sm" px="20">
+              Delete
+            </Button>
+          ) : (
+            <IconBookmark className="text-bright-sun-400 cursor-pointer" />
+          )}
 
           <Link to="/apply-job" className="py-2">
-            <Button variant="light" color="brightSun.4" size="sm">
-              Apply
+            <Button variant="light" color="brightSun.4" size="sm" px="30">
+              {props.edit ? "Edit" : "Apply"}
             </Button>
           </Link>
         </div>

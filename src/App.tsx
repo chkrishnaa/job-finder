@@ -12,10 +12,10 @@ import FindJobsPage from './Pages/FindJobsPage';
 import TalentProfilePage from './Pages/TalentProfilePage';
 import JobDesriptionPage from './Pages/JobDescriptionPage';
 import PostJobPage from './Pages/PostJobPage';
-// import ApplyJobPage from './Pages/ApplyJobPage';
 import { ScrollToTop } from './components/ScrollToTop';
 import ApplyJobPage from './Pages/ApplyJobPage';
 import CompanyPage from './Pages/CompanyPage';
+import PostedJobsPage from './Pages/PostedJobsPage';
 
 function App() {
   const theme = createTheme({
@@ -66,6 +66,7 @@ function App() {
               <Route path="/find-talents" element={<FindTalentsPage />}></Route>
               <Route path="/company" element={<CompanyPage />}></Route>
               <Route path="/post-job" element={<PostJobPage />}></Route>
+              <Route path="/posted-jobs" element={<PostedJobsPage />}></Route>
               <Route
                 path="/job-description"
                 element={<JobDesriptionPage />}
