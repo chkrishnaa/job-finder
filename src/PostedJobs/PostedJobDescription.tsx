@@ -30,12 +30,17 @@ export default function PostedJobDescription() {
             <div className="mt-10 grid [grid-template-columns:repeat(auto-fit,minmax(384px,1fr))] gap-5 justify-center">
               {talents.map(
                 (talent, index) =>
-                  index < 6 && <TalentCards key={index} {...talent} posted />
+                  index < 6 && <TalentCards key={index} {...talent} applicant />
               )}
             </div>
           </Tabs.Panel>
           <Tabs.Panel value="invited">
-            Tab-3
+            <div className="mt-10 grid [grid-template-columns:repeat(auto-fit,minmax(384px,1fr))] gap-5 justify-center">
+              {talents.map(
+                (talent, index) =>
+                  index < 6 && <TalentCards key={index} {...talent} invited />
+              )}
+            </div>
           </Tabs.Panel>
         </Tabs>
       </div>
