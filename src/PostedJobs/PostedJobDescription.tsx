@@ -1,5 +1,4 @@
 import { Badge, Tabs } from "@mantine/core";
-import React from "react";
 import JobDescription from "../JobDescription/JobDescription";
 import { talents } from "../Data/TalentData";
 import TalentCards from "../FindTalents/TalentCards";

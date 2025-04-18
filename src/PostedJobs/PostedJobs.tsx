@@ -1,5 +1,4 @@
 import { Tabs } from "@mantine/core";
-import React from "react";
 import { activeJobs } from "../Data/PostedJobsData";
 import PostedJobCards from "./PostedJobCards";
 

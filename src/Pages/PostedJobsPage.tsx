@@ -1,4 +1,3 @@
-import React from 'react'
 import PostedJobs from '../PostedJobs/PostedJobs';
 import PostedJobDescription from '../PostedJobs/PostedJobDescription';
 
