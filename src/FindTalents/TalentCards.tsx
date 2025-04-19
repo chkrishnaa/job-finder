@@ -43,9 +43,10 @@ export default function TalentCards(props: any) {
         {props.about}
       </Text>
       <Divider size="xs" color="mineShaft.7" />
+
       {props.invited ? (
         <div className="flex gap-1 text-mine-shaft-200 text-sm items-center [&>svg]:!text-bright-sun-400">
-          <IconCalendarMonth stroke={1.5} /> Interview: August 27, 2024 10:00 AM
+          <IconCalendarMonth stroke={1.5} className="mr-2"/>Interview: August 27, 2024 10:00 AM
         </div>
       ) : (
         <div className="flex justify-between">
@@ -60,36 +61,56 @@ export default function TalentCards(props: any) {
 
       <Divider size="xs" color="mineShaft.7" />
       <div className="flex [&>*]:w-1/2 [&>*]:p-1">
-        <Link to="/talent-profile">
-          <Button variant="outline" color="brightSun.4" fullWidth>
-            View Profile
-          </Button>
-        </Link>
-        <div>
-          {props.applicant ? (
-            <Button
-              onClick={open}
-              rightSection={<IconCalendarMonth className="h-5 w-5" />}
-              variant="light"
-              color="brightSun.4"
-              fullWidth
-            >
-              Schedule
-            </Button>
-          ) : (
-            <Button variant="light" color="brightSun.4" fullWidth>
-              Message
-            </Button>
-          )}
-        </div>
+        {!props.invited && (
+          <>
+            <Link to="/talent-profile">
+              <Button variant="outline" color="brightSun.4" fullWidth>
+                View Profile
+              </Button>
+            </Link>
+            <div>
+              {props.applicant ? (
+                <Button
+                  onClick={open}
+                  rightSection={<IconCalendarMonth className="h-5 w-5" />}
+                  variant="light"
+                  color="brightSun.4"
+                  fullWidth
+                >
+                  Schedule
+                </Button>
+              ) : (
+                <Button variant="light" color="brightSun.4" fullWidth>
+                  Message
+                </Button>
+              )}
+            </div>
+          </>
+        )}
+        {props.invited && (
+          <>
+            <div>
+              <Button variant="outline" color="brightSun.4" fullWidth>
+                Accept
+              </Button>
+            </div>
+            <div>
+              {" "}
+              <Button variant="light" color="brightSun.4" fullWidth>
+                Reject
+              </Button>
+            </div>
+          </>
+        )}
       </div>
       <Modal
         opened={opened}
         onClose={close}
         title="Schedule Interview"
         centered
+        color="brightSun.4"
       >
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-5 text-mine-shaft-500">
           <DateInput
             value={value}
             onChange={setValue}

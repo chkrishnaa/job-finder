@@ -4,7 +4,7 @@ import PostedJobCards from "./PostedJobCards";
 
 export default function PostedJobs() {
   return (
-    <div className="w-1/6">
+    <div className="w-1/4">
       <div className="text-2xl font-semibold mb-5">Jobs Posted</div>
       <div>
         <Tabs autoContrast variant="pills" defaultValue="active">
@@ -15,12 +15,20 @@ export default function PostedJobs() {
 
           <Tabs.Panel value="active">
             <div className="flex flex-col gap-5 mt-10">
-              {activeJobs.map((item, index) => (index<10 &&
-                <PostedJobCards key={index} {...item} />
-              ))}
+              {activeJobs.map(
+                (item, index) =>
+                  index < 10 && <PostedJobCards key={index} {...item} />
+              )}
             </div>
           </Tabs.Panel>
-          <Tabs.Panel value="draft">Second panel</Tabs.Panel>
+          <Tabs.Panel value="draft">
+            <div className="flex flex-col gap-5 mt-10">
+              {activeJobs.map(
+                (item, index) =>
+                  index < 5 && <PostedJobCards key={index} {...item} />
+              )}
+            </div>
+          </Tabs.Panel>
         </Tabs>
       </div>
     </div>

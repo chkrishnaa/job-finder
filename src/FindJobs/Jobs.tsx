@@ -33,7 +33,7 @@ export default function Jobs() {
         <div className="text-2xl font-semibold">Recommended Jobs</div>
         <Sort />
       </div>
-      <div className="mt-10 grid [grid-template-columns:repeat(auto-fit,minmax(300px,1fr))] gap-5 justify-center">
+      <div className="mt-10 grid [grid-template-columns:repeat(auto-fit,minmax(300px,1fr))] gap-5">
         {currentJobs.map((job, index) => (
           <JobCards key={index} {...job} />
         ))}

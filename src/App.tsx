@@ -17,6 +17,7 @@ import { ScrollToTop } from './components/ScrollToTop';
 import ApplyJobPage from './Pages/ApplyJobPage';
 import CompanyPage from './Pages/CompanyPage';
 import PostedJobsPage from './Pages/PostedJobsPage';
+import JobHistoryPage from './Pages/JobHistoryPage';
 
 function App() {
   const theme = createTheme({
@@ -71,6 +72,10 @@ function App() {
               <Route
                 path="/job-description"
                 element={<JobDesriptionPage />}
+              ></Route>
+              <Route
+                path="/job-history"
+                element={<JobHistoryPage />}
               ></Route>
               <Route path="/apply-job" element={<ApplyJobPage />}></Route>
 
