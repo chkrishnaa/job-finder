@@ -1,4 +1,3 @@
-import React from 'react'
 import JobHistory from '../JobHistory/JobHistory';
 
 export default function JobHistoryPage() {
