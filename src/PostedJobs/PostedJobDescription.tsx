@@ -5,7 +5,7 @@ import TalentCards from "../FindTalents/TalentCards";
 
 export default function PostedJobDescription() {
   return (
-    <div className="mt-5 w-3/4 px-5">
+    <div className="mt-5 w-3/4">
       <div className="text-2xl font-semibold flex items-center">
         Software Engineer{" "}
         <Badge variant="light" ml="sm" color="brightSun.4" size="sm">

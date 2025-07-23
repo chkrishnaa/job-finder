@@ -1,10 +1,12 @@
 import { IconBrandFacebook, IconBrandInstagram, IconBrandLinkedin, IconBrandX, IconDeviceMobileSearch } from '@tabler/icons-react';
 import { footerLinks } from '../Data/Data';
 import { Divider } from '@mantine/core';
+import { useLocation } from "react-router-dom";
 
 export default function Footer() {
-  return (
-    <div>
+  const location = useLocation();
+  return location.pathname != "/sign-up" && location.pathname != "/login" ? (
+    <>
       <Divider size="xs" />
       <div className="pt-20 pb-5 flex gap-5 justify-around bg-mine-shaft-950 font-['poppins']">
         <div className="w-1/4 flex flex-col gap-4">
@@ -50,6 +52,8 @@ export default function Footer() {
           </div>
         ))}
       </div>
-    </div>
+    </>
+  ) : (
+    <></>
   );
 }

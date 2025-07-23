@@ -5,11 +5,14 @@ import {
 } from "@tabler/icons-react";
 import { Avatar, Divider, Indicator } from "@mantine/core";
 import NavLinks from "./NavLinks";
+import { useLocation } from "react-router-dom";
+import ProfileMenu from "./ProfileMenu";
 // import '@mantine/core/styles.css';
 
 export default function Header() {
-  return (
-    <div>
+  const location = useLocation();
+  return location.pathname != "/sign-up" && location.pathname != "/login" ? (
+    <>
       <div className="w-full bg-mine-shaft-950 h-20 text-white flex justify-between px-6 items-center bg-mine-shaft-950 font-['poppins']">
         <div className="flex gap-1 items-center text-bright-sun-400">
           <IconDeviceMobileSearch
@@ -20,17 +23,7 @@ export default function Header() {
         </div>
         <NavLinks></NavLinks>
         <div className="flex gap-5 items-center">
-          <div className="flex gap-2 items-center">
-            <div>Krishnakumar</div>
-
-            <Avatar
-              component="a"
-              href=""
-              target="_blank"
-              src="/AvatarImages/avatar-3.png"
-              alt="it's me"
-            />
-          </div>
+          <ProfileMenu/>
           <div className="bg-mine-shaft-900 p-1.5 rounded-full">
             <IconSettings stroke={1.5}></IconSettings>
           </div>
@@ -42,6 +35,8 @@ export default function Header() {
         </div>
       </div>
       <Divider size="xs" />
-    </div>
+    </>
+  ) : (
+    <></>
   );
 }
