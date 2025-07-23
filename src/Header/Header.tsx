@@ -3,7 +3,7 @@ import {
   IconBell,
   IconSettings,
 } from "@tabler/icons-react";
-import { Avatar, Divider, Indicator } from "@mantine/core";
+import { Divider, Indicator } from "@mantine/core";
 import NavLinks from "./NavLinks";
 import { useLocation } from "react-router-dom";
 import ProfileMenu from "./ProfileMenu";

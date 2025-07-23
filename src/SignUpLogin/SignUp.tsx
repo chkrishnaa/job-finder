@@ -6,7 +6,6 @@ import {
   TextInput,
 } from "@mantine/core";
 import { IconAt, IconLock } from "@tabler/icons-react";
-import React from "react";
 import { Link } from "react-router-dom";
 
 export default function SignUp() {
